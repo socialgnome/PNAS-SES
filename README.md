@@ -2,6 +2,5 @@
 Michael J. Shanahan, Steven W. Cole, Justin Chumbley, Wenjia Xu, Ravi Sudharshan, Cecilia Potente, Brandt Levitt, Julien Bodeleta, Allison Aiello, Lauren Gaydosh, Kathleen Mullan Harris
 
 ## Supplemental Data Files - Reactome pathway enrichment analysis
-* on the DeNovo DE genes
-* on the genes in significantly associated clusters of the disease gene signatures (with and without 1KI signature)
-* on the genes in significantly associated clusters in the DeNovo DE genes for SES composite.
+* Dataset S1: Enriched pathways for highly loaded genes in the disease clusters that are significantly predicted by SES
+* Dataset S2: Enriched pathways for genes differentially expressed by the SES composites and its indicators
