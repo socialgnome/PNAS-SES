@@ -1,0 +1,7 @@
+library(biomaRt)
+library(httr)
+library(stringr)
+library(here)
+set_config(config(ssl_verifypeer = 0L))
+sapiens_ensembl <- useMart(biomart = "ensembl", dataset = "hsapiens_gene_ensembl")#, host="http://useast.ensembl.org")
+saveRDS(sapiens_ensembl, str_c(here("data/"), "sapiens_ensembl.rds"))
